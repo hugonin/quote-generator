@@ -1,5 +1,5 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
+/*<uniquifier>: Use a unique and descriptive class name */
+/*<weight>: Use a value from 100 to 900 */
 
 .inter-var {
     font-family: "Inter", sans-serif;
@@ -99,10 +99,10 @@ button:active {
 }
 
 /* Loader*/
-/*
+
 .loader {
-    border: 16px solid #f3f3f3; 
-    border-top: 16px solid #333;
+    border: 16px solid #bbb8b8c4; 
+    border-top: 16px solid #1f1e1e;
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -113,7 +113,8 @@ button:active {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-*/
+
+
 /* Media Query: Tablet or smaller*/
 @media screen and (max-width: 1000px) {
     .quote-container {
